@@ -1,0 +1,11 @@
+ansible --version
+
+sudo chmod 400 ansi-slve.pem
+
+sudo chmod 600 ansi-slve.pem
+
+sudo chmod 700 ansi-slve.pem
+
+sudo ansible all -m ping -i inventory
+
+sudo ansible-playbook -i inventory  ansi-playbook.yml

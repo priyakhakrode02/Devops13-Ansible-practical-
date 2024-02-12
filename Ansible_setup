@@ -1,0 +1,8 @@
+#Ansible Setup for Ubuntu
+
+sudo apt-get update                                                         #checks an install any updates if version is older
+
+sudo add-apt-repository --yes --update ppa:ansible/ansible                  #creates repository for ansible
+ 
+sudo apt install ansible -y                                                 #install Ansible The Configuration Management Tool.
+
