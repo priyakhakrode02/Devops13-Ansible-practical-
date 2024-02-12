@@ -1,5 +1,5 @@
 ---
-- hosts: ansible-slave
+- hosts: all
   become: yes
   tasks:
     - name: "update apt package cache."
